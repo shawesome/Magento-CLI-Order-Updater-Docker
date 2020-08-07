@@ -5,7 +5,7 @@
 - Docker (I'm running 19.03.11)
 - Docker Compose (I'm running 1.17.1)
 
-## Installation
+## Instructions
 
 You'll need to copy in a valid `auth.json` file into `docker/magento/conf/auth.json`. It should look something like this
 
