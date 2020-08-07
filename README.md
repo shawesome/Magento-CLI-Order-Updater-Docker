@@ -33,3 +33,6 @@ After that, you should be able to spin up the instance with:
 ```
 docker-compose up
 ```
+
+You'll know the environment has finished building when you get the prompt "Launching nginx and php..". Be aware, the first
+build can take some time.
