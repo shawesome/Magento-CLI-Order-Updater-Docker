@@ -38,3 +38,7 @@ docker-compose up
 
 You'll know the environment has finished building when you get the prompt "Launching nginx and php..". Be aware, the first
 build can take some time.
+
+The shell can then be accessed with
+
+```docker-compose exec magento bash```
