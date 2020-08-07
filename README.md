@@ -1,5 +1,7 @@
 # Docker Setup for Magento CLI Order Updater
 
+A docker-compose setup which creates a debian box running Magento 2.4.0 and the https://github.com/shawesome/Magento-CLI-Order-Updater module.
+
 ## Pre-requisites
 
 - Docker (I'm running 19.03.11)
