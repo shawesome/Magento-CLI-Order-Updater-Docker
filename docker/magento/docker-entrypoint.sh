@@ -30,6 +30,10 @@ bin/magento module:disable Magento_TwoFactorAuth
 # Install sample data so we have some things to work with.
 bin/magento sampledata:deploy
 
+# Install our module which will allow the order updating
+composer config repositories.martinshaw-cli-order-updater git "https://github.com/shawesome/Magento-CLI-Order-Updater.git"
+composer require shawesome/magento-cli-order-updater
+
 # Call Magento's setup commands to get sampledata and our module registered
 bin/magento setup:upgrade
 bin/magento setup:di:compile
